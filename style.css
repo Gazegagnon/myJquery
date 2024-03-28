@@ -1,0 +1,33 @@
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: url(https://cdn.pixabay.com/photo/2023/04/13/09/56/alps-7922246_1280.jpg);
+    
+}
+.grid{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    padding-left: 500px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 90px;
+}
+h1, .p1, .p2, .button, .form{
+    text-align: center;
+}
+.p1{
+    border: solid, 5px;
+    border-color: black;
+}
+.p4, .p3{
+    font-size: 3rem;
+}
+.p3{
+    color: rgb(214, 4, 4);
+}
+.p4{
+    color:  rgb(204, 251, 52);
+}
+
